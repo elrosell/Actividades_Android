@@ -7,18 +7,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="30dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/regresar"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saludo"
-        android:id="@+id/boton"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Otra Actividad"
-        android:id="@+id/otroboton"/>
+        android:id="@+id/otroSaludo"/>
 
 </LinearLayout>
